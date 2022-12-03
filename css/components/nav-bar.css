@@ -1,0 +1,35 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    /* padding을 줘도 box size는 그대로 */
+    box-sizing: border-box; 
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    position: relative;
+    color: #2e363e;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    /* absoulte는 가장 가까운 relative를 가진 부모 기준으로 움직임 */
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
