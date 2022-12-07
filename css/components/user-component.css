@@ -22,9 +22,19 @@
 }
 
 .user-component__subtitle {
+    display: flex;
     margin-top: 5px;
     font-size: 17px;
     color: var(--gray);
+}
+
+.user-component__subtitle-exclamation {
+    border-color: tomato;
+    color: tomato;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    font-weight: 600;
 }
 
 .user-component__avatar--xl {
