@@ -19,16 +19,6 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 25px;
-    height: 25px;
-    border-radius: 12.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-    /* absoulte는 가장 가까운 relative를 가진 부모 기준으로 움직임 */
     position: absolute;
     bottom: 15px;
     left: 15px;
