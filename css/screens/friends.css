@@ -28,3 +28,28 @@
     justify-content: space-between;
     color: var(--gray);
 }
+
+@keyframes hideSplashScreen {
+    form {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#spalsh-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    /* fowards는 마지막 keyframes를 기억 */
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 2s;
+}
